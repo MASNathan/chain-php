@@ -1,0 +1,20 @@
+{
+    "name": "masnathan/chain-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Filipe",
+            "email": "andre.r.flip@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "MASNathan\\Chain\\": "src/"
+        }
+    }
+}
