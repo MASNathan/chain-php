@@ -8,13 +8,16 @@
             "email": "andre.r.flip@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^5.6"
+    },
     "require-dev": {
         "symfony/var-dumper": "^3.3"
     },
     "autoload": {
         "psr-4": {
             "MASNathan\\Chain\\": "src/"
-        }
+        },
+        "files": ["src/helper.php"]
     }
 }
